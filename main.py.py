@@ -107,7 +107,7 @@ for i in range(min(5, len(view_buttons))):
         print(f"Error with project {i+1}: {e}")
 
 df = pd.DataFrame(data)
-df.to_csv("projects.csv", index=False, encoding='utf-8')
+df.to_csv("projects.csv", index=False, encoding='utf-8') #convert in CSV file format
 
 # Quit
 driver.quit()
